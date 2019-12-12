@@ -1,0 +1,204 @@
+  body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+  }
+    .headerBar{
+    background-color: rgb(136, 40, 136);
+    margin-bottom: 20px;
+    }
+    .header{
+      padding: 15px 20px 20px 14px;
+      font-size: 21px;
+    }
+    .headerTitle {
+      color:white;
+      padding-left: 10px;
+    }
+    .buttons{
+      background-color:pink;
+      border: 1.5px solid white;
+      color: rgb(136, 40, 136);
+      font-size:20px;
+      border-radius: 4px;
+      padding: 2px 10px;
+      float: right;
+    }
+  .targetArea {
+    width: 70%;
+    margin: auto;
+    padding: 20px 20px 40px 20px;
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+  .contactList {
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .headings {
+    font-weight: bold;
+    font-size: 20px;
+    border-top: 1.5px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(136, 40, 136);
+  }
+  
+  .num {
+    float:left;
+    width: 50px;
+    margin: auto;
+    padding-left: 10px;
+  }
+  .Name {
+    float: left;
+    width: 150px;
+  }
+  .Email {
+    float: left;
+    width: 250px;
+  }
+  
+  .rowDiv {
+    display: inline-block;
+    border-top: 1px solid lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background: rgb(136, 40, 136);
+  }
+  .numSpan {
+    float:left;
+    width: 50px;
+    margin: auto;
+    padding-top: 3px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+  .nameSpan {
+    float: left;
+    width: 150px;
+    padding-top: 3px;
+  }
+  .emailSpan {
+    float: left;
+    width: 250px;
+    padding-top: 3px;
+  } 
+  .phoneSpan{
+    float: left;
+    width: 140px;
+    padding-top: 3px;
+  }
+  
+  .indexButtonSpan {
+    /*float: left;*/
+    height: 100%;
+    display: inline-block;
+    padding-left: 1px;
+  }
+  .labels {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+  }
+  .detailsButton {
+    margin-right: 4px;
+    border: 1.5px solid lightslategray;
+    color: lightslategray;
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 16px;
+  }
+
+  .detailsContent {
+    border: 1.5px solid lightgray;
+    border-top-width: 0px;
+    padding: 20px 0px  
+  }
+  
+  .editButton, .detailEditButton {
+    float: right;
+    margin-right: 4px;
+    border: 1.5px solid rgb(247, 187, 60);
+    color: rgb(247, 187, 60);
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 16px;
+  }
+  
+  .deleteButton {
+    float: right;
+    margin-right: 2px;
+    border: 1.5px solid blueviolet;
+    color: blueviolet;
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 16px;
+  }
+
+  #submitButton, .editSubmitButton {
+    border: 1.5px solid rgb(136, 40, 136);
+    color: rgb(136, 40, 136);
+    background-color: white;
+    border-radius: 4px;
+    padding: 8px 10px;
+    font-size: 16px;
+    margin-left: 747px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #contactHeadingDiv, .newContact {
+    background-color: var(--contact-bg-color);
+    padding: 15px 25px;
+    margin-top: 8px;
+    border: 1.5px solid lightgray;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .formLabels {
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  #nameForm, #emailForm, #phoneForm, .cNameInputField, .cEmailInputField, .cPhoneInputField {
+    margin-left: 25px;
+    width: 760px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid lightgray
+  }
+  
+  .forms, .editContent {
+    border: 1.5px solid lightgray;
+    border-top-width: 0px;
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  
+  .values {
+    color:white;
+    background-color: purple;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 2px 5px;
+    font-size: 16px;
+  }
+  
+  p {
+    text-align: center;
+  }
